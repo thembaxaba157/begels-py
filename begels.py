@@ -87,7 +87,7 @@ def loop_begels(begels_num):
 def verdict_message(verdict,begels_num):
     
     if verdict:print('You got it!')
-    else: print(f'''Failed
+    else: print(f'''You Failed
 The correct answer was {''.join(map(str, begels_num))}''')
 
 
