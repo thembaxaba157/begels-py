@@ -16,7 +16,7 @@ def get_guess(guess_num):
         guess_num (int): The number of guess the current guess is
 
     Returns:
-        guess (str): a string of 3 unique digits
+        guess (str): a string of three unique digits
     """
     print(f'Guess #{guess_num}')
     guess = input('> ')
